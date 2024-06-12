@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chooseGallery"
+        android:layout_width="160dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#3F382F"
+        android:text="Gallery"
+        app:cornerRadius="20dp"
+        android:textColor="#EAE1D9"
+        app:iconTint="#EAE1D9"
+        app:icon="@drawable/icon_gallery"
+        app:iconGravity="textStart"
+        app:iconSize="@android:dimen/app_icon_size"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        app:strokeColor="#9B8F80"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chooseCamera"
+        android:layout_width="160dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#3F382F"
+        android:text="Camera"
+        app:iconTint="#EAE1D9"
+        app:cornerRadius="20dp"
+        android:textColor="#EAE1D9"
+        app:icon="@drawable/icon_camera"
+        app:iconGravity="textStart"
+        app:iconSize="@android:dimen/app_icon_size"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        app:strokeColor="#9B8F80"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
